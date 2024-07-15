@@ -20,16 +20,16 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Getter
-@Table(name="user")
+@Builder
+@Table(name = "user")
 @Entity
 public class UserEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(name = "logInId")
+	@Column(name = "loginId")
 	private String loginId;
 	
 	private String password;
@@ -38,7 +38,7 @@ public class UserEntity {
 	
 	private String email;
 	
-	@CreationTimestamp 
+	@CreationTimestamp
 	@Column(name = "createdAt")
 	private LocalDateTime createdAt;
 	

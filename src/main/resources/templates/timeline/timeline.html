@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html 
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/defaultLayout}">
+<section layout:fragment="content" class="contents d-flex justify-content-center">
+	<div class="container" style="border: 1px solid #999; height:200px; width: 600px;">
+		<textarea rows="3" cols="76" placeholder="내용을 입력하세요" style= "border:none"></textarea>
+		<input type="submit" value="게시" class="btn btn-info d-flex align-justufy-end	">
+	</div>
+</section>
+
+<th:block layout:fragment="script">
+    <script>
+
+    </script>
+</th:block>
