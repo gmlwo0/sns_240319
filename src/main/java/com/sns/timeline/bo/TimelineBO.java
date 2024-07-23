@@ -52,6 +52,9 @@ public class TimelineBO {
 			
 			//!!!!!!!!! 반드시 리스트에 넣는다.
 			cardViewList.add(card);
+			
+			// 좋아요 N개
+			
 		}
 		
 		return cardViewList;
