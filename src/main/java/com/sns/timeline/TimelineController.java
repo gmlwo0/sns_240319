@@ -18,7 +18,7 @@ public class TimelineController {
 	@Autowired
 	private TimelineBO timelineBO;
 	
-	@GetMapping("/timeline/timeline-view")
+		@GetMapping("/timeline/timeline-view")
 	public String timelineView(Model model, HttpSession session) {
 //		List<PostEntity> postList = postBO.getPostEntityList();
 //		List<Comment>
